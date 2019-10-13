@@ -1,0 +1,15 @@
+import gql from 'graphql-tag';
+
+const mutation = gql`
+    {
+        getBooks{
+            id
+            title
+            authors {
+                firstName
+                lastName
+            }
+            language
+        }
+    }
+`
