@@ -1,4 +1,4 @@
-# graphql-basic
+# graphql-express-example
 A repository for testing with GraphQL
 
 ### `npm install`
